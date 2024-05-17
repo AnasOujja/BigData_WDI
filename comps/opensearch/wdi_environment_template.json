@@ -1,0 +1,104 @@
+{"index_patterns": ["wdienvironment*"],
+ "settings": {
+"index": {
+"number_of_shards": 1,
+"number_of_replicas": 1,
+"refresh_interval": "5s"
+}
+},
+"mappings": {
+"properties": {
+  "Country Name": {
+    "type": "keyword"
+  },
+  "Year": {
+    "type": "date",
+    "format": "yyyy"
+  },
+  "CO2 emissions (kt)": {
+    "type": "float"
+  },
+  "CO2 emissions (metric tons per capita)": {
+    "type": "float"
+  },
+  "CO2 emissions from electricity and heat production, total (% of total fuel combustion)": {
+    "type": "float"
+  },
+  "CO2 emissions from gaseous fuel consumption (% of total)": {
+    "type": "float"
+  },
+  "CO2 emissions from gaseous fuel consumption (kt)": {
+    "type": "float"
+  },
+  "CO2 emissions from liquid fuel consumption (% of total)": {
+    "type": "float"
+  },
+  "CO2 emissions from liquid fuel consumption (kt)": {
+    "type": "float"
+  },
+  "CO2 emissions from manufacturing industries and construction (% of total fuel combustion)": {
+    "type": "float"
+  },
+  "CO2 emissions from other sectors, excluding residential buildings and commercial and public services (% of total fuel combustion)": {
+    "type": "float"
+  },
+  "CO2 emissions from residential buildings and commercial and public services (% of total fuel combustion)": {
+    "type": "float"
+  },
+  "CO2 emissions from solid fuel consumption (% of total)": {
+    "type": "float"
+  },
+  "CO2 emissions from solid fuel consumption (kt)": {
+    "type": "float"
+  },
+  "CO2 emissions from transport (% of total fuel combustion)": {
+    "type": "float"
+  },
+  "Agricultural methane emissions (% of total)": {
+    "type": "float"
+  },
+  "Agricultural methane emissions (thousand metric tons of CO2 equivalent)": {
+    "type": "float"
+  },
+  "Agricultural nitrous oxide emissions (% of total)": {
+    "type": "float"
+  },
+  "Agricultural nitrous oxide emissions (thousand metric tons of CO2 equivalent)": {
+    "type": "float"
+  },
+  "Renewable energy consumption (% of total final energy consumption)": {
+    "type": "float"
+  },
+  "Forest area (% of land area)": {
+    "type": "float"
+  },
+  "Renewable internal freshwater resources per capita (cubic meters)": {
+    "type": "float"
+  },
+  "Renewable internal freshwater resources, total (billion cubic meters)": {
+    "type": "float"
+  },
+  "Annual freshwater withdrawals, agriculture (% of total freshwater withdrawal)": {
+    "type": "float"
+  },
+  "Annual freshwater withdrawals, domestic (% of total freshwater withdrawal)": {
+    "type": "float"
+  },
+  "Annual freshwater withdrawals, industry (% of total freshwater withdrawal)": {
+    "type": "float"
+  },
+  "Annual freshwater withdrawals, total (% of internal resources)": {
+    "type": "float"
+  },
+  "Annual freshwater withdrawals, total (billion cubic meters)": {
+    "type": "float"
+  },
+  "Agricultural irrigated land (% of total agricultural land)": {
+    "type": "float"
+  },
+  "Agricultural land (% of land area)": {
+    "type": "float"
+  }
+}
+}
+}

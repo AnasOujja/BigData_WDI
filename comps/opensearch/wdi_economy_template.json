@@ -1,0 +1,113 @@
+{"index_patterns": ["wdieconomy*"],
+ "settings": {
+"index": {
+"number_of_shards": 1,
+"number_of_replicas": 1,
+"refresh_interval": "5s"
+}
+},
+"mappings": {
+"properties": {
+  "Country Name": {
+    "type": "keyword"
+  },
+  "Year": {
+    "type": "date",
+    "format": "yyyy"
+  },
+  "GDP (current US$)": {
+    "type": "float"
+  },
+  "GDP growth (annual %)": {
+    "type": "float"
+  },
+  "GDP per capita (current US$)": {
+    "type": "float"
+  },
+  "GDP per capita growth (annual %)": {
+    "type": "float"
+  },
+  "Inflation, consumer prices (annual %)": {
+    "type": "float"
+  },
+  "Foreign direct investment, net (BoP, current US$)": {
+    "type": "float"
+  },
+  "Foreign direct investment, net inflows (% of GDP)": {
+    "type": "float"
+  },
+  "Foreign direct investment, net inflows (BoP, current US$)": {
+    "type": "float"
+  },
+  "Foreign direct investment, net outflows (% of GDP)": {
+    "type": "float"
+  },
+  "Foreign direct investment, net outflows (BoP, current US$)": {
+    "type": "float"
+  },
+  "Unemployment with advanced education (% of total labor force with advanced education)": {
+    "type": "float"
+  },
+  "Unemployment with advanced education, female (% of female labor force with advanced education)": {
+    "type": "float"
+  },
+  "Unemployment with advanced education, male (% of male labor force with advanced education)": {
+    "type": "float"
+  },
+  "Unemployment with basic education (% of total labor force with basic education)": {
+    "type": "float"
+  },
+  "Unemployment with basic education, female (% of female labor force with basic education)": {
+    "type": "float"
+  },
+  "Unemployment with basic education, male (% of male labor force with basic education)": {
+    "type": "float"
+  },
+  "Unemployment with intermediate education (% of total labor force with intermediate education)": {
+    "type": "float"
+  },
+  "Unemployment with intermediate education, female (% of female labor force with intermediate education)": {
+    "type": "float"
+  },
+  "Unemployment with intermediate education, male (% of male labor force with intermediate education)": {
+    "type": "float"
+  },
+  "Unemployment, female (% of female labor force) (modeled ILO estimate)": {
+    "type": "float"
+  },
+  "Unemployment, female (% of female labor force) (national estimate)": {
+    "type": "float"
+  },
+  "Unemployment, male (% of male labor force) (modeled ILO estimate)": {
+    "type": "float"
+  },
+  "Unemployment, male (% of male labor force) (national estimate)": {
+    "type": "float"
+  },
+  "Unemployment, total (% of total labor force) (modeled ILO estimate)": {
+    "type": "float"
+  },
+  "Unemployment, total (% of total labor force) (national estimate)": {
+    "type": "float"
+  },
+  "Unemployment, youth female (% of female labor force ages 15-24) (modeled ILO estimate)": {
+    "type": "float"
+  },
+  "Unemployment, youth female (% of female labor force ages 15-24) (national estimate)": {
+    "type": "float"
+  },
+  "Unemployment, youth male (% of male labor force ages 15-24) (modeled ILO estimate)": {
+    "type": "float"
+  },
+  "Unemployment, youth male (% of male labor force ages 15-24) (national estimate)": {
+    "type": "float"
+  },
+  "Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)": {
+    "type": "float"
+  },
+  "Unemployment, youth total (% of total labor force ages 15-24) (national estimate)": {
+    "type": "float"
+  }
+}
+}
+}

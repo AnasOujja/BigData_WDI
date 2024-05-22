@@ -6,6 +6,8 @@ services:
     container_name: namenode
     volumes:
       - hadoop_namenode:/hadoop/dfs/name
+      - ~/projet/comps/files:/tmp/data
+      - ~/projet/comps/python:/python
     environment:
       - CLUSTER_NAME=test
     env_file:

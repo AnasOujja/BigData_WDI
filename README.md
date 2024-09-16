@@ -12,7 +12,7 @@ In the `comps/python/` directory, you'll find Python scripts responsible for tra
 
 ## Setting up the Environment
 
-To set up the project on a different machine with RedHat OS, follow these steps:
+To set up the project on a different machine with RedHat/CentOS-like OS, follow these steps:
 
 1. **Install Dependencies**: Execute the `set_my_env.sh` script. This script installs Python 3 and pandas, which are required to run the Python codes located in the `comps/python/` directory.
 
